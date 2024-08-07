@@ -108,8 +108,8 @@ class LSportFixtureMainDto {
 }
 
 class LSportBodyDto {
-    // @IsNumber()
-    // FixtureId: number;
+    @IsNumber()
+    FixtureId: number;
 
    @Type(()=>LSportFixtureMainDto)
    Fixture: LSportFixtureMainDto
